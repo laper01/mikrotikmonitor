@@ -80,7 +80,9 @@
 	[https://github.com/laksa19/mikhmonv3/issues/5](https://github.com/laksa19/mikhmonv3/issues/5)
 
 #### Update 03-30 2019 V3.13 r4
-1. Perbaikan edit user.
+1. Perbaikan edit user.@guest
+	
+@endguest
 2. Penambahan nama profile di filter comment (user list).
 3. Penambahan hapus expired user (klik expired pada kolom comment user list).
 4. Perbaikan print laporan penjualan.

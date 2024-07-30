@@ -448,12 +448,12 @@ date_default_timezone_set($_SESSION['timezone']);
   <tr>
   	<td><?= $_data_limit ?></td><td><?= $udlimit ?></td>
   </tr>
-  <tr>
+  <!-- <tr>
   	<td><?= $_price ?></td><td><?= $uprice ?></td>
   </tr>
   <tr>
   	<td><?= $_selling_price ?></td><td><?= $suprice ?></td>
-  </tr>
+  </tr> -->
   <tr>
   	<td><?= $_lock_user ?></td><td><?= $ulock ?></td>
   </tr>

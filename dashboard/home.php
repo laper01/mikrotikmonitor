@@ -211,7 +211,7 @@ if (!isset($_SESSION["mikhmon"])) {
                   </div>
                   <div class="col-3 col-box-6">
                     <div class="box bg-red bmh-75">
-                      <a onclick="cancelPage()" href="./?hotspot-user=generate&session=<?= $session; ?>">
+                      <!-- <a onclick="cancelPage()" href="./?hotspot-user=generate&session=<?= $session; ?>"> -->
                         <div>
                           <h1><i class="fa fa-user-plus"></i>
                               <span style="font-size: 15px;"><?= $_generate ?></span>

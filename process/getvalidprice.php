@@ -65,8 +65,8 @@ include('../lang/'.$langid.'.php');
         $sprice = "| ".$_selling_price." : " . $curency . " " . number_format($getsprice);
       }
     }
-    echo '<b id="getdata">' . $getvalid . ' ' . $price . ' ' . $sprice . ' ' . $getlock . '</b>';
-    echo '<span id="validity">' . explode(",", $ponlogin)[3] . '</span> ';
+    // echo '<b id="getdata">' . $getvalid . ' ' . $price . ' ' . $sprice . ' ' . $getlock . '</b>';
+    // echo '<span id="validity">' . explode(",", $ponlogin)[3] . '</span> ';
   }
 }
 ?>

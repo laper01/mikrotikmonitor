@@ -300,8 +300,8 @@ $getquickprint = $API->comm("/system/script/print", array("?.id" => "$qpid"));
                     <th><?= $_time_limit ?></th>
                     <th><?= $_data_limit ?></th>
                     <th><?= $_validity ?></th>
-					<th><?= $_price ?></th>
-					<th><?= $_selling_price ?></th>
+					<!-- <th><?= $_price ?></th>
+					<th><?= $_selling_price ?></th> -->
                     <th><?= $_lock_user ?></th>
                     <th><?= $_comment ?></th>
                     </tr>
@@ -346,8 +346,8 @@ for ($i = 0; $i < $TotalReg; $i++) {
 <td><?= $timelimit ?></td>
 <td><?= formatBytes($datalimit, 2) ?></td>
 <td><?= $validity ?></td>
-<td><?= $price ?></td>
-<td><?= $sprice ?></td>
+<!-- <td><?= $price ?></td>
+<td><?= $sprice ?></td> -->
 <td><?= $userlock ?></td>
 <td><?= $comment ?></td>
               </tr>

@@ -39,7 +39,7 @@ if (!isset($_SESSION["mikhmon"])) {
   border :none;
 }
 </style>
-<div class="row">
+<!-- <div class="row">
   <div class="col-12">
     <div class="card">
       <div class="card-header">
@@ -91,4 +91,4 @@ if (!isset($_SESSION["mikhmon"])) {
   </div>
 </div>
 </div>
-</div>
+</div> -->

@@ -73,7 +73,7 @@ for ($i = 0; $i < $TotalReg; $i++) {
             </div>
               <div class="box-group-area">
                 <h3 ><?= $_package ?> : <?= $package; ?> <br></h3>
-                <span><?= $_time_limit ?>  : <?= $timelimit ?> | <?= $_data_limit ?>  : <?= formatBytes($datalimit, 2) ?> <br> <?= $_validity ?>  : <?= $validity ?> | <?= $_price ?>  : <?= $price ?> | <?= $_selling_price ?>  : <?= $sprice ?></span>
+                <!-- <span><?= $_time_limit ?>  : <?= $timelimit ?> | <?= $_data_limit ?>  : <?= formatBytes($datalimit, 2) ?> <br> <?= $_validity ?>  : <?= $validity ?> | <?= $_price ?>  : <?= $price ?> | <?= $_selling_price ?>  : <?= $sprice ?></span> -->
               </div>
             </div>
             

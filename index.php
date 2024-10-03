@@ -72,7 +72,7 @@ if (!isset($_SESSION["mikhmon"])) {
   $API->connect($iphost, $userhost, decrypt($passwdhost));
 
   $getidentity = $API->comm("/system/identity/print");
-  $identity = $getidentity[0]['name'];
+  $identity = "UMMAT";
   
 
 // get variable

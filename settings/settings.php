@@ -191,7 +191,9 @@ if (!isset($_SESSION["mikhmon"])) {
 	<td class="align-middle"><?= $_dns_name ?>  </td><td><input class="form-control" type="text" size="15" maxlength="500" name="dnsname" title="DNS Name [IP->Hotspot->Server Profiles->DNS Name]" value="<?= $dnsname; ?>" required="1"/></td>
 	</tr>
 	<tr>
-	<td class="align-middle"><?= $_currency ?>  </td><td><input class="form-control" type="text" size="3" maxlength="4" name="currency" title="currency" value="<?= $currency; ?>" required="1"/></td>
+	<!-- <td class="align-middle"><?= $_currency ?>  </td><td> -->
+    <input  class="form-control" type="hidden" size="3" maxlength="4" name="currency" title="currency" value="0" required="1"/>
+  <!-- </td> -->
 	</tr>
 	<tr> 
 	<td class="align-middle"><?= $_auto_reload ?></td><td>

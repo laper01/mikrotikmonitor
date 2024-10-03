@@ -67,8 +67,8 @@ if (!isset($_SESSION["mikhmon"])) {
 		<th class="align-middle">Rate<br>Limit</th>
 		<th class="align-middle"><?= $_expired_mode ?></th>
 		<th class="align-middle"><?= $_validity ?></th>
-		<th class="text-right align-middle" > <?= $_price." ".$currency; ?></th>
-		<th class="text-right align-middle" > <?= $_selling_price." ".$currency; ?></th>
+		<!-- <th class="text-right align-middle" > <?= $_price." ".$currency; ?></th>
+		<th class="text-right align-middle" > <?= $_selling_price." ".$currency; ?></th> -->
 		<th class="align-middle"><?= $_lock_user ?></th>
     </tr>
   </thead>
@@ -126,36 +126,36 @@ for ($i = 0; $i < $TotalReg; $i++) {
 
 	echo "</td>";
 
-	echo "<td style='text-align:right;'>";
+	// echo "<td style='text-align:right;'>";
 // get price
-	$getprice = explode(",", $ponlogin);
-	$price = trim($getprice[2]);
-	if ($price == "" || $price == "0") {
-		echo "";
-	} else {
-		if ($currency == in_array($currency, $cekindo['indo'])) {
-			echo number_format((float)$price, 0, ",", ".");
-		} else {
-			echo number_format((float)$price, 2);
-		}
-	}
+	// $getprice = explode(",", $ponlogin);
+	// $price = trim($getprice[2]);
+	// if ($price == "" || $price == "0") {
+	// 	echo "";
+	// } else {
+	// 	if ($currency == in_array($currency, $cekindo['indo'])) {
+	// 		echo number_format((float)$price, 0, ",", ".");
+	// 	} else {
+	// 		echo number_format((float)$price, 2);
+	// 	}
+	// }
 
-	echo "</td>";
-	echo "<td style='text-align:right;'>";
+	// echo "</td>";
+	// echo "<td style='text-align:right;'>";
 // get price
-	$getsprice = explode(",", $ponlogin);
-	$price = trim($getsprice[4]);
-	if ($price == "" || $price == "0") {
-		echo "";
-	} else {
-		if ($currency == in_array($currency, $cekindo['indo'])) {
-			echo number_format((float)$price, 0, ",", ".");
-		} else {
-			echo number_format((float)$price, 2);
-		}
-	}
+	// $getsprice = explode(",", $ponlogin);
+	// $price = trim($getsprice[4]);
+	// if ($price == "" || $price == "0") {
+	// 	echo "";
+	// } else {
+	// 	if ($currency == in_array($currency, $cekindo['indo'])) {
+	// 		echo number_format((float)$price, 0, ",", ".");
+	// 	} else {
+	// 		echo number_format((float)$price, 2);
+	// 	}
+	// }
 
-	echo "</td>";
+	// echo "</td>";
 	echo "<td>";
 
 	$getgracep = explode(",", $ponlogin);

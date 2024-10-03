@@ -181,14 +181,14 @@ if ($idleto != "disable") {
     </div>
     <div class="navbar-right">
       <a id="logout" href="./admin.php?id=logout"><i class="fa fa-sign-out mr-1"></i> <?= $_logout ?></a>
-      <select class="stheme ses text-right mr-t-10 pd-5">
+      <!-- <select class="stheme ses text-right mr-t-10 pd-5">
         <option> <?= $_theme ?></option>
         <?php for ($i = 0; $i < count($mtheme); $i++) {
           echo '<option value="' . $url . '&set-theme=' . $mtheme[$i], '">' . ucfirst($mtheme[$i]), '</option>';
         }
         ?>
-      </select>
-      <select class="slang ses text-right mr-t-10 pd-5">
+      </select> -->
+      <!-- <select class="slang ses text-right mr-t-10 pd-5">
         <option> <?= $language ?></option>
         <?php
         $fileList = glob('lang/*');
@@ -202,8 +202,8 @@ if ($idleto != "disable") {
           }
         }
         ?>
-      </select>
-      <a title="Idle Timeout" style="<?= $didleto; ?>"><span style="width:70px;" class="pd-5 radius-3"><i class="fa fa-clock-o mr-1"></i> <span class="mr-1" id="timer"></span></span></a>
+      </select> -->
+      <!-- <a title="Idle Timeout" style="<?= $didleto; ?>"><span style="width:70px;" class="pd-5 radius-3"><i class="fa fa-clock-o mr-1"></i> <span class="mr-1" id="timer"></span></span></a> -->
     </div>
   </div>
 
@@ -261,7 +261,7 @@ if ($idleto != "disable") {
     </div>
     <div class="navbar-right">
       <a id="logout" href="./?hotspot=logout&session=<?= $session; ?>"><i class="fa fa-sign-out mr-1"></i> <?= $_logout ?></a>
-      <select class="stheme ses text-right mr-t-10 pd-5">
+      <!-- <select class="stheme ses text-right mr-t-10 pd-5">
         <option> <?= $_theme ?></option>
         <?php for ($i = 0; $i < count($mtheme); $i++) {
           echo '<option value="' . $url . '&set-theme=' . $mtheme[$i], '">' . ucfirst($mtheme[$i]), '</option>';
@@ -284,8 +284,8 @@ if ($idleto != "disable") {
         }
         ?>
 
-      </select>
-      <a title="Idle Timeout" style="<?= $didleto; ?>"><span style="width:70px;" class="pd-5 radius-3"><i class="fa fa-clock-o mr-1"></i> <span class="mr-1" id="timer"></span></span></a>
+      </select> -->
+      <!-- <a title="Idle Timeout" style="<?= $didleto; ?>"><span style="width:70px;" class="pd-5 radius-3"><i class="fa fa-clock-o mr-1"></i> <span class="mr-1" id="timer"></span></span></a> -->
     </div>
   </div>
 
